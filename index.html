@@ -6,10 +6,42 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <style type="text/css">
 
-      body {
-        font-family: 'Roboto', serif;
-        font-size: 14px;
+@font-face {
+      	font-family: PixelFont;
+        src: url(pokemon_pixel_font.ttf);
+       
       }
+body {
+		font-family: PixelFont;
+        font-size: 14px;
+        background-image: url("bg.jpg");
+        letter-spacing: 3px;
+      }
+
+
+      .button {
+  background-color: #FFC300;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container {
+  position: relative;
+  text-align: center;
+}
+
 </style>
 
 
@@ -33,9 +65,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-WVP537V');</script>
 <!-- End Google Tag Manager -->
 
-	
-<center><h1> Choose your Pokemon!! </h1></center>
+<img src=https://seeklogo.com/images/P/Pokemon-logo-497D61B223-seeklogo.com.png width="10%", height="10%" />
 
+<center>
+
+
+<div class="container">
+  <img src="http://pixelartmaker.com/art/ad936adca5f141c.png" width="25%", height="25%" />
+	<div class="centered"><h1>Choose your Pokemon!!</h1></div>
+</div>
+	
 </head>
 
 
@@ -53,7 +92,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <center>
 
-<img src=https://seeklogo.com/images/P/Pokemon-logo-497D61B223-seeklogo.com.png />
 <br>
 <br>
 <br>
@@ -84,38 +122,45 @@ newWindow.focus();
 
 	
 		<td>
+			<h2>Bulbasaur</h2>
 			<a onclick="PopupCenterDual('Bulbasaur.html','Bulbasaur','450','300'); " href="javascript:void(0);"><img src=https://cdn.bulbagarden.net/upload/2/21/001Bulbasaur.png id=bulbasaur width="250", height="250" /></a>
 
-			<h2>Bulbasaur</h2>
 		</td>
 		<td>
-			<a onclick="PopupCenterDual('Squirtle.html','Squirtle','450','300'); " href="javascript:void(0);"><img src=https://cdn.bulbagarden.net/upload/3/39/007Squirtle.png id= squirtle width="250", height="250"/></a>
-
 			<h2>Squirtle</h2>
+			<a onclick="PopupCenterDual('Squirtle.html','Squirtle','450','300'); " href="javascript:void(0);"><img src=https://cdn.bulbagarden.net/upload/3/39/007Squirtle.png id= squirtle width="250", height="250"/></a>
+			
 		<td>
-			<a onclick="PopupCenterDual('Charmander.html','Charmander','450','300'); " href="javascript:void(0);"><img src=https://cdn.bulbagarden.net/upload/7/73/004Charmander.png  id=charmander width="250", height="250"/></a>
-
 			<h2>Charmander</h2>
+			<a onclick="PopupCenterDual('Charmander.html','Charmander','450','300'); " href="javascript:void(0);"><img src=https://cdn.bulbagarden.net/upload/7/73/004Charmander.png  id=charmander width="250", height="250"/></a>
+			
 		</td>
 		<td>
-
+			<h2>Pikachu</h2>
 			<a onclick="PopupCenterDual('Pikachu.html','Pikachu','450','300'); " href="javascript:void(0);"><img src=https://cdn.bulbagarden.net/upload/0/0d/025Pikachu.png  id=pickachu width="250", height="250"/></a>
 
-			<h2>Pikachu</h2>
+			
 		</td>
 		<td>
-			<a onclick="PopupCenterDual('Eevee.html','Eevee','450','300'); " href="javascript:void(0);"><img src=https://cdn.bulbagarden.net/upload/e/e2/133Eevee.png  id=eevee width="250", height="250"/></a>
 			<h2>Eevee</h2>
+			<a onclick="PopupCenterDual('Eevee.html','Eevee','450','300'); " href="javascript:void(0);"><img src=https://cdn.bulbagarden.net/upload/e/e2/133Eevee.png  id=eevee width="250", height="250"/></a>
+			
 		</td>
 
 	</tr>
 </table>
-
 <br>
 
-			<a onclick="PopupCenterDual('Pokeball.html','Pokeball','450','300'); " href="javascript:void(0);"><img src=http://66.media.tumblr.com/5b94f3545e5e0afa339efe86b6f723f4/tumblr_mgxqxcFyJT1rmazn7o1_400.gif  id=pokeball width="250", height="250"/></a>
-			<h2>Buy Poké Ball!</h2>
-	
+<br>
+<table>
+	<tr>
+		
+			<a onclick="PopupCenterDual('Pokeball.html','Pokeball','450','300'); " href="javascript:void(0);"><b><button class="button">Buy Poké Ball!</b></button></a>
+			<br>
+			<a onclick="PopupCenterDual('Pokeball.html','Pokeball','450','300'); " href="javascript:void(0);"><img src=http://66.media.tumblr.com/5b94f3545e5e0afa339efe86b6f723f4/tumblr_mgxqxcFyJT1rmazn7o1_400.gif  id=pokeball width="250", height="250"/></td></a>
+
+	</tr>
+</table>
 
 </center>
 
