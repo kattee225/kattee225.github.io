@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	
 	<meta charset="UTF-8">
 
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <style type="text/css">
-
 @font-face {
       	font-family: PixelFont;
         src: url(pokemon_pixel_font.ttf);
@@ -18,8 +16,6 @@ body {
         background-image: url("bg.jpg");
         letter-spacing: 3px;
       }
-
-
       .button {
   background-color: #FFC300;
   border: none;
@@ -42,33 +38,48 @@ body {
   position: relative;
   text-align: center;
 }
-
 </style>
 
+<head>
 
-	<title>GCC Next Training - GTM Intermediate</title>
+</head>
+
+	<title>Optimize Test</title>
 
 <!--//_________DECLARE DATALAYER HERE_________________//-->
 
 <script>
   dataLayer = [{
-	  'gtm.whitelist': ['html', 'zone', 'customScripts', 'sandboxedScripts', 'google', 'nonGooglePixels', 'nonGoogleScripts', 'nonGoogleIframes', 'customPixels'],
-	  'pageCategory': 'ChoosePokemon',
-	  'visitorType': 'PokemonTrainer',
-	  'pokeballAmount': 3,
-	  'event' : 'Choosing Pokemon'
+    'pageCategory': 'ChoosePokemon',
+    'visitorType': 'PokemonTrainer',
+    'pokeballAmount': 3,
+    'event' : 'Choosing Pokemon'
   }];
 </script>
 
 <!--//____________________________________________//-->
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-157430725-1', 'auto');
+ga('require', 'GTM-T83LTP9');
+</script>
+<!-- End Google Analytics -->
+
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-N3R3Z8C');</script>
+})(window,document,'script','dataLayer','GTM-KWCSCXL');</script>
 <!-- End Google Tag Manager -->
+
 <img src="https://seeklogo.com/images/P/Pokemon-logo-497D61B223-seeklogo.com.png" width="10%", height="10%" />
 
 <center>
@@ -76,29 +87,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div class="container">
   <img src="http://pixelartmaker.com/art/ad936adca5f141c.png" width="330", height="150" />
-	<div class="centered" ><h1>Choose your Pokemon!!</h1></div>
+	<div class="centered" ><h1>Time to Test!!</h1></div>
+
 </div>
 	
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139832016-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-139832016-1', {'linker': {'accept_incoming': true}});
-  
-</script>
-
 </head>
 
 
 <body>
-
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N3R3Z8C"
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KWCSCXL"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+
+
 <!--//_________ADD DATALAYER HERE_________________//-->
 
 <!--//____________________________________________//-->
@@ -119,11 +121,9 @@ var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : screen
 var dualScreenTop = window.screenTop != undefined ? window.screenTop : screen.top;
 width = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
 height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
-
 var left = ((width / 2) - (w / 2)) + dualScreenLeft;
 var top = ((height / 2) - (h / 2)) + dualScreenTop;
 var newWindow = window.open(url, title, 'scrollbars=yes, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
-
 // Puts focus on the newWindow
 if (window.focus) {
 newWindow.focus();
