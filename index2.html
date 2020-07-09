@@ -90,7 +90,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <!--//_________ADD DATALAYER HERE_________________//-->
-
+dataLayer.push({
+  'event_name': 'add_to_cart',
+  'event_value': 78.45,
+  'event_items' : [{
+    'id': '1234',
+    'google_business_vertical': 'retail'
+  }]
+});
 <!--//____________________________________________//-->
 
 
