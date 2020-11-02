@@ -5,10 +5,7 @@
 
 <script>
   dataLayer = [{
-    'pageCategory': 'ChoosePokemon',
-    'visitorType': 'PokemonTrainer',
-    'pokeballAmount': 3,
-    'event' : 'Choosing Pokemon'
+    
   }];
 </script>
 
@@ -102,7 +99,15 @@ body {
 
 
 <!--//_________ADD DATALAYER HERE_________________//-->
-
+	<script>
+	dataLayer.push({
+'pageCategory': 'ChoosePokemon',
+    'visitorType': 'PokemonTrainer',
+    'pokeballAmount': 3,
+    'event' : 'Choosing Pokemon'});
+		</script>
+	
+	
 <!--//____________________________________________//-->
 
 
