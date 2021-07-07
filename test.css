@@ -2561,13 +2561,8 @@ table.hover:not(.unstriped) tr:nth-of-type(2n):hover {
 	background-color: #ececec
 }
 
-.table-scroll {
-	overflow-x: auto
-}
 
-.table-scroll table {
-	width: auto
-}
+
 
 .tabs {
 	margin: 0;
