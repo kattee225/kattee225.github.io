@@ -2345,7 +2345,7 @@ a.button:hover {
 	z-index: 1005;
 	display: none;
 	background-color: hsla(0, 0%, 4%, .45);
-	overflow-y: scroll
+	
 }
 
 .reveal {
@@ -3235,16 +3235,6 @@ table tr td:first-of-type {
 
 table tr td:last-of-type {
 	border-right: none
-}
-
-.table-scroll {
-	-webkit-box-shadow: 0 .25rem 1rem rgba(0, 0, 0, .075);
-	box-shadow: 0 .25rem 1rem rgba(0, 0, 0, .075);
-	margin-bottom: 1rem
-}
-
-.table-scroll table {
-	margin-bottom: 0
 }
 
 .responsive-card-table {
@@ -6049,9 +6039,7 @@ screen and (min-width:40em) {
 }
 
 @media screen and (max-width:75em) {
-	.banner {
-		overflow-y: scroll
-	}
+	
 }
 
 .banner-container {
