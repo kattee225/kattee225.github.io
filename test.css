@@ -2543,11 +2543,7 @@ table.unstriped tbody tr {
 	}
 }
 
-table.scroll {
-	display: block;
-	width: 100%;
-	overflow-x: auto
-}
+
 
 table.hover thead tr:hover {
 	background-color: #f3f3f3
