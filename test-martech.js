@@ -146,7 +146,7 @@ var MarTech = function() {
     function a(b, c, d) {
         var e = this;
         _classCallCheck(this, a),
-        this.DEFAULT_GTM_ID = "GTM-T7SLD4H",
+        this.DEFAULT_GTM_ID = "GTM-MX5G3BX",
         this.DEFAULT_GTM_DATA_LAYER = "martechJsDataLayer",
         this.DEFAULT_TRACKING_URL_PARAMS = ["gclid", "msclkid", "fbclid"],
         this.DEFAULT_EVENT_NAME = "Generic Track Event",
